@@ -1,0 +1,13 @@
+Antenna is an RSS reader.
+
+Usage: COMMAND
+
+COMMANDS:
+    a: Add an RSS feed.
+    e: Edit the RSS feed.
+    d: Delete the RSS feed.
+    v: View all RSS feeds.
+    c: Change the email sender.
+    u: Update RSS feeds.
+    h: Get help.
+    q: Quit the app.

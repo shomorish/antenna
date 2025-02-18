@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "go: build package",
+			"command": "go build -o antenna cmd/antenna/main.go",
+			"problemMatcher": [
+				"$go"
+			],
+			"group": "build",
+			"detail": "cd /app; go build -o antenna cmd/antenna/main.go"
+		},
+		{
+			"type": "shell",
+			"label": "go: run package",
+			"command": "go run cmd/antenna/main.go",
+			"problemMatcher": [
+				"$go"
+			],
+			"detail": "cd /app; go run cmd/antenna/main.go"
+
+		}
+	]
+}

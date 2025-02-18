@@ -1,0 +1,19 @@
+{
+    "name": "Antenna",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "app",
+    "workspaceFolder": "/app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "golang.Go",
+                "oderwat.indent-rainbow",
+                "yzhang.markdown-all-in-one",
+                "shd101wyy.markdown-preview-enhanced"
+            ]
+        }
+    }
+}
